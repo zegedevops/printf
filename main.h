@@ -35,7 +35,7 @@ struct fmt
  * typedef struct fmt fmt_t - Struct op
  *
  * @fmt: The format struct.
- * @fm_t: The function associated.
+ * @fm_t: The function associated with the struct.
  */
 typedef struct fmt fmt_t;
 
