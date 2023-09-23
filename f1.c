@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * get_flags - Calculates the active flags
+ * get_flags1 - Calculates the active flags
  * format: Formatted string in which to print the arguments
  * i: takes a parameter.
  * Return: Flags
  */
-int get_flags(const char *format, int *i)
+int find_f1(const char *format, int *i)
 {
 	int z, curr_i;
 	int flags = 0;
